@@ -4,6 +4,6 @@ services:
     build:
       context: ./docker
     ports:
-    - "8880:8888"
+    - "8888:8888"
     volumes:
     - .:/home/jovyan/work
